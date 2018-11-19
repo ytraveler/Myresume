@@ -16,3 +16,5 @@ $(window).on('load',function(){
         }
     });	
 })
+
+window.onload = function(){setTimeout(function(){$(window).scrollTop(0)},10);}
